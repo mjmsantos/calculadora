@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculara</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <section class="calculadora">
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">
+                        <h1>Calculara simples</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input id="valor1" class="valor1"></td>
+                    <td><input id="valor2" class="valor2"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="resultado" id="resultado"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td><button id="soma" onclick="somar()">Soma</button></td>
+                    <td><button id="dividi" onclick="dividir()">Divisão</button></td>
+                </tr>
+                <tr>
+                    <td> <button id="multiplica" onclick="multiplicar()">Multiplicação</button></td>
+                    <td><button id="subtrai" onclick="subtrair()">Subtração</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button onclick="location.reload()">Limpar</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>
