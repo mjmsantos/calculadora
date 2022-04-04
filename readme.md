@@ -15,7 +15,8 @@
       * Subtrair
 
 * Arquivo app.css - Arquivo de configurações css do projeto.
-  class calculadora com as configurações da section calculadora
+  * class calculadora com as configurações da section calculadora;
+  * table, button, input.
 
 Ter as operações somar, dividir, multiplicar e subtrair.
 Permitir que o usuiaro digite os valores de forma progressiva.
